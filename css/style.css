@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+:root {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(../img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: 46.5rem -14.5rem;
+    margin: 0%;
+}
+
+.hamburguesa {
+    display: none;
+}
+
+main {
+    width: 100%;
+    background-image: url("../img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: -30.25rem 54.5rem;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+header nav {
+    padding-bottom: 65px;
+    padding-top: 65px;
+    padding-left: 100px;
+}
+
+header a {
+    color: rgba(35, 44, 81, 1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 176.1%;
+    margin: 0 0.5rem;
+}
+
+header a:hover {
+    color: rgba(35, 44, 81, 0.6);
+}
+
+.getStarted {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13.1806px;
+    background-color: rgba(242, 95, 58, 1);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.getStarted:hover {
+    background-color: rgba(242, 95, 58, 0.8);
+
+}
+
+.contenedor1 {
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.contenedor1 h1 {
+    color: #232c50;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.035em;
+    margin-bottom: 0;
+
+
+}
+
+.titulo {
+    padding: 4rem 8rem;
+    padding-top: 0;
+}
+
+.titulo p {
+    Width: 355px;
+    Height: 71px;
+    font-size: 16.5584px;
+    font-weight: 500;
+    line-height: 157.1%;
+    color: #B3B2B7;
+}
+
+.graficas {
+    padding-right: 8rem;
+}
+
+/* Listado contenedor 2*/
+.listado1 li:before {
+    content: counter(item, decimal-leading-zero) " ";
+    counter-increment: item;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 3.125rem;
+    background-color: rgb(242, 95, 58);
+    border: none;
+    color: white;
+    margin-right: 1rem;
+    list-style-type: none;
+
+}
+
+.listado1 li p {
+    font-size: 1rem;
+    font-weight: 700;
+    left: 5rem;
+    position: relative;
+    margin-bottom: 2.625rem;
+}
+
+.listado1 {
+    counter-reset: item;
+    list-style-type: none;
+    list-style-position: inside;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 151.1%;
+    padding-left: 0%;
+    margin-left: 7.813rem;
+    color: #323851;
+}
+
+.contenedor2 {
+    display: flex;
+}
+
+.contenedor2 h2 {
+    Width: 433px;
+    Height: 88px;
+    color: #232851;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 114.6%;
+    padding: 4rem;
+    padding-top: 0%;
+    margin-top: 0;
+    padding-bottom: 0%;
+}
+
+.differentP {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 151.1%;
+    padding-right: 12rem;
+    padding-left: 4rem;
+    margin-top: 0%;
+    color: #B3B2B7;
+    Width: 337px;
+    Height: 88px;
+}
+
+.listado1 p {
+    size: 16.2984px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #B3B2B7;
+    padding-left: 0%;
+    margin-left: 0%;
+    Width: 437px;
+}
+
+.title {
+    Width: 90rem;
+    Height: 61px;
+    display: block;
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 156.6%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #242E53;
+    padding-bottom: 4.625rem;
+
+}
+
+.contenedor3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 81.125rem;
+    height: 29.875rem;
+    margin-left: 4.5rem;
+}
+
+.contenedor3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards {
+    position: relative;
+    text-align: center;
+    width: 27.813rem;
+    /* height: 13.688rem; */
+    background-color: rgb(249, 249, 249);
+    margin-bottom: 2.813rem;
+    margin: 1rem;
+}
+
+.cards img {
+    position: absolute;
+    width: 4.375rem;
+    height: 4.375rem;
+    top: -2.5rem;
+}
+
+.phar {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 156.6%;
+    color: #B9B9C1;
+}
+
+.botonCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedor4 {
+    justify-content: space-between;
+    height: 224px;
+    display: flex;
+    background: #F3613C;
+    margin-top: 7rem;
+    align-items: center;
+}
+
+.contenedor4 h2 {
+    width: 450px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    align-items: center;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    padding-left: 8.313rem;
+}
+
+.contenedor4 button {
+    width: 134px;
+    height: 44px;
+    color: #F3603B;
+    font-weight: 500;
+    font-size: 13.1806px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+    margin-right: 8rem;
+}
+
+.contenedor4 button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.contenedor5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1E1E26;
+}
+
+.logoFooter {
+
+    Width: 120.34px;
+    Height: 23.74px;
+    margin-bottom: 4rem;
+    position: relative;
+    left: 4rem;
+
+}
+
+.social {
+    font-size: 1.5rem;
+    position: relative;
+    left: 4rem;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.social a:hover {
+    text-decoration: none;
+    color: rgba(242, 95, 58, 0.8);
+
+}
+
+.listadoCompleto {
+    display: flex;
+}
+
+.listadoCompleto li {
+    list-style: none;
+
+}
+
+.listadoCompleto a {
+    width: 7rem;
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 8%;
+
+}
+
+.listadoCompleto a:hover {
+    color: rgba(242, 95, 58, 0.8);
+}
+
+.lista1 {
+    justify-content: space-between;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 9rem;
+    padding-top: 1rem;
+    position: relative;
+    right: 4rem;
+    bottom: 3rem;
+}
+
+.lista2 {
+    margin-right: 0%;
+    padding-right: 0%;
+    margin-left: 4rem;
+    padding-top: 1rem;
+    position: relative;
+    right: 8rem;
+    top: 1rem;
+}
+
+.inputButton {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 4.5rem;
+}
+
+.input {
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #A0A0A0;
+    font-weight: 600;
+    font-size: 13.1806px;
+    line-height: 19px;
+    border: none;
+    margin-top: 2rem;
+}
+
+.buttonGo {
+    width: 63px;
+    height: 42px;
+    background-color: rgba(242, 95, 58, 1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.buttonGo:hover {
+    background-color: rgba(242, 95, 58, 0.8);
+}
+
+.inputButton p {
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    color: #8C8C94;
+    margin-top: 5rem;
+    margin-left: 3.5rem;
+}
+
+/*Version Mobile*/
+@media (max-width: 375px) {
+    body {
+        width: 23.438rem;
+        background-image: url("../img/bg-tablet-pattern.svg");
+        background-repeat: no-repeat;
+        background-position: 5.25rem -25.5rem;
+
+    }
+
+    main {
+        width: 100%;
+    }
+
+    /* header  */
+    header nav {
+        display: none;
+    }
+
+    header img {
+        width: 27%;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .hamburguesa {
+        display: block;
+        width: 1.5rem;
+        margin-left: 12rem;
+        margin-right: 0%;
+    }
+
+    .contenedor1 {
+        flex-direction: column-reverse;
+    }
+
+    .graficas img {
+        width: 160%;
+        padding-top: 9%;
+    }
+
+    .titulo {
+        padding: 0%;
+    }
+
+    .contenedor1 h1 {
+        font-size: 2.6em;
+        font-weight: 2000;
+        margin: 0%;
+        text-align: center;
+        line-height: 125%;
+    }
+
+    .titulo p {
+        width: 91%;
+        text-align: center;
+        margin-left: 1.2rem;
+    }
+
+    .titulo button {
+        margin-left: 8rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .contenedor2 h2 {
+        width: 72%;
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 2000;
+        padding: 0%;
+        margin-left: 4rem;
+        line-height: 160%;
+        margin-top: 2rem;
+    }
+
+    .contenedor2 p {
+        text-align: center;
+        padding: 0%;
+        margin-left: 1rem;
+    }
+
+    .contenedor2 {
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .listado1 {
+        margin: 1rem;
+        text-align: left;
+        padding: 0%;
+    }
+
+    /* Lista*/
+    .listado1 li {
+        margin: 0%;
+        padding: 0%;
+        margin-top: 3rem;
+        font-weight: 700;
+    }
+
+    .listasSec2 p {
+        font-size: 35px;
+        width: 100%;
+        text-align: left;
+        padding-top: 1rem;
+        margin-left: -5rem;
+        padding-right: 1rem;
+    }
+
+    .contenedor3 {
+
+        flex-direction: column;
+    }
+
+    .contenedor3 h2 {
+        font-size: 33px;
+        font-weight: 900;
+        margin: 0%;
+        padding: 0%;
+        text-align: left;
+        margin-left: 5.5rem;
+        margin-top: 1rem;
+    }
+
+    /*Cartas*/
+    .cards {
+        width: 80%;
+        margin: 0%;
+        padding-top: 2rem;
+        justify-content: space-between;
+    }
+
+
+
+    .cartas {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-right: 67rem;
+        padding-top: 3rem;
+        padding-left: 0%;
+        margin: 0%;
+    }
+
+    .cards p {
+        width: 40%;
+        padding-left: 15.5rem;
+    }
+
+    .ali img {
+        padding-top: 2.5rem;
+    }
+
+    .richard img {
+        padding-top: 2.5rem;
+    }
+
+    .anisha img {
+        padding-top: 2.5rem;
+    }
+
+    .botonCard {
+        margin: 0%;
+        padding-top: 24rem;
+        padding-bottom: 0%;
+    }
+
+    .contenedor4 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        padding-bottom: 12.5rem;
+    }
+
+    #botonC {
+        padding-left: 2rem;
+    }
+
+    .contenedor4 h2 {
+        width: 90%;
+        font-weight: 700;
+        text-align: center;
+        margin-right: 8.5rem;
+        margin-top: 6rem;
+    }
+
+    .getStartedBlanco {
+        font-weight: 700;
+        margin-top: 3rem;
+        margin-left: 7rem;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+
+    .contenedor5 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /*Boton*/
+    .inputButton {
+        position: relative;
+        left: 0px;
+        top: 1rem;
+    }
+
+    .input {
+        order: 0;
+        padding-right: 2rem;
+
+    }
+
+    /*Lista footer*/
+    .listadoCompleto {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .lista1 ul {
+        margin: 0%;
+        padding: 0%;
+        position: relative;
+        bottom: 4rem;
+        left: 3rem;
+    }
+
+    .lista2 ul {
+        margin: 0%;
+        padding: 0%;
+        position: relative;
+        left: 1rem;
+        bottom: 4.5rem;
+    }
+
+    .lista2 {
+        margin: 0%;
+    }
+
+    /*Lista footer*/
+    .redesYLogo {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    /*Redes Sociales*/
+    .social {
+        width: 100%;
+        padding-bottom: 2rem;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 6rem;
+        position: relative;
+        bottom: 5rem;
+        left: -0.5rem;
+    }
+
+    /*Logo Footer*/
+    .logoFooter {
+        margin-left: 4rem;
+        position: relative;
+        bottom: 3.5rem;
+        left: -0.5rem;
+    }
+
+    .derechos {
+        position: relative;
+        top: 23rem;
+        right: 2rem;
+    }
+}
